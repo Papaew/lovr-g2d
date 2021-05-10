@@ -5,7 +5,7 @@ A 2d graphics rendering library for [LÖVR](https://lovr.org)
 ```lua
 g2d = require("lovr-g2d").init()
 
-function love.load()
+function lovr.load()
     g2d.setLineWidth(1)
     g2d.setPointSize(5)
 end
@@ -30,8 +30,8 @@ function lovr.draw()
     g2d.points(285,75, 300,60, 315,75)
   g2d.unset()
 
-  g.print(g.getStats().drawcalls, 0,0, -20)
-  g.print(lovr.timer.getFPS(), 18,1, -20)
+  lovr.graphics.print(lovr.graphics.getStats().drawcalls, 0,0, -20)
+  lovr.graphics.print(lovr.timer.getFPS(), 18,1, -20)
 end
 ```
 
