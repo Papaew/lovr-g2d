@@ -1,5 +1,5 @@
 # lovr-g2d
-Keep it shader-friendly
+A 2d graphics rendering library for [LÖVR](https://lovr.org)
 
 # Usage
 ```lua
