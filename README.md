@@ -2,10 +2,11 @@
 A 2d graphics rendering library for [LÖVR](https://lovr.org)
 
 # Usage
-![alt text](https://github.com/Papaew/lovr-g2d/blob/main/test.png?raw=true)
+![alt text](https://github.com/Papaew/lovr-g2d/blob/main/resources/test.png?raw=true)
 ```lua
 g2d = require("lovr-g2d").init()
 
+-- https://github.com/Papaew/lovr-g2d/blob/main/resources/lovr-ico.png
 local image = g.newTexture("/lovr-ico.png")
 function lovr.draw()
     g2d.set()
