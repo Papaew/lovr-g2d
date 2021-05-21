@@ -63,7 +63,7 @@ end
 
 # Documentation
 ## init()
-##### Initializes the module with selected settings. 
+#### Initializes the module with selected settings. 
 ###### Function 
 ``` lua
 g2d = require("lovr-g2d").init( maxTriangles, stackSize, zNear, zFar, useVeraSans )
@@ -84,7 +84,7 @@ g2d = require("lovr-g2d").init( maxTriangles, stackSize, zNear, zFar, useVeraSan
 
 
 ## set()
-##### The entry point into drawing 2D graphics. Can be called several times per frame, but must be closed with [g2d.unset()](#unset)
+#### The entry point into drawing 2D graphics. Can be called several times per frame, but must be closed with [g2d.unset()](#unset)
 ###### Function 
 ``` lua
 g2d:set()
@@ -104,7 +104,7 @@ Functions from [lovr.graphics](https://lovr.org/docs/v0.15.0/lovr.graphics) call
 
 
 ## unset()
-##### Exit point from drawing 2D graphics. Must be called after [g2d.set()](#set) for correct rendering
+#### Exit point from drawing 2D graphics. Must be called after [g2d.set()](#set) for correct rendering
 ###### Function 
 ``` lua
 -- draw 2d stuff
@@ -167,7 +167,7 @@ The function saves the following types of states:
 
 
 ## pop()
-##### Returns the current graphics state to what it was before the last preceding [g2d.push()](#push)
+#### Returns the current graphics state to what it was before the last preceding [g2d.push()](#push)
 ###### Function 
 ``` lua
 g2d:pop()
