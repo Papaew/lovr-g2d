@@ -622,3 +622,19 @@ None.
 ###### Returns
 **[`boolean`](#boolean)** state
 
+
+
+
+## DrawMode
+- `"fill"` Draw filled shape
+- `"line"` Draw outlined shape
+
+## VerticalAlign
+- `"top"` Align the top of the text to the origin
+- `"middle"` Vertically center the text
+- `"bottom"` Align the bottom of the text to the origin
+
+## HorizontalAlign
+- `"left"` Left aligned lines of text
+- `"center"` Centered aligned lines of text
+- `"right"` Right aligned lines of text
